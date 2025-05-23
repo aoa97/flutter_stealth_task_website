@@ -1,0 +1,25 @@
+{
+    "hosting": {
+        "public": "build/web",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "frameworksBackend": {
+            "region": "europe-west1"
+        }
+    },
+    "flutter": {
+        "platforms": {
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "stealth-task-1e1b1",
+                    "configurations": {
+                        "web": "1:381990216295:web:25c207641566c651a82ac2"
+                    }
+                }
+            }
+        }
+    }
+}
